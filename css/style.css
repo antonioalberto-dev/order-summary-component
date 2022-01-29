@@ -1,6 +1,6 @@
 :root {
-  --primary-color: hsl(318, 94%, 20%);
-  --secondary-color: #991392;
+  --primary-color: hsl(318, 92%, 29%);
+  --secondary-color: #a1239b;
 }
 
 * {
@@ -11,6 +11,9 @@
 }
 
 body {
+  /* background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%; */
   background-color: hsl(225, 100%, 98%);
   width: 100%;
   height: 100vh;
@@ -25,7 +28,7 @@ main {
   background-color: #fff;
   max-width: 416px;
   border-radius: 1rem;
-  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151);
+  box-shadow: 2px 40px 40px 20px rgba(4, 11, 36, 0.151);
 }
 
 main section {
